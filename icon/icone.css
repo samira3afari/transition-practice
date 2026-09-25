@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'vazirmatn', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: #333;
+    background-color: aliceblue;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    height: 90vh;
+}
+.icon {
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: lightpink;
+  transition: all 0.3s ease;
+}
+.icon:hover{
+    transform:rotate(180deg);
+}
